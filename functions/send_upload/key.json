@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "SOME_KEY_VALUE",
+  "private_key_id": "SOME_KEY_VALUE",
+  "private_key": "SOME_KEY_VALUE",
+  "client_email": "firebase-adminsdk-kcqx3@SOME_KEY_VALUE-SOME_KEY_VALUE.iam.gserviceaccount.com",
+  "client_id": "107756745385180336906",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/SOME_KEY_VALUE/x509/firebase-adminsdk-kcqx3%SOME_KEY_VALUE-dd942.iam.SOME_KEY_VALUE.com"
+}
