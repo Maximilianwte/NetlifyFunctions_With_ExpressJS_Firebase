@@ -1,29 +1,10 @@
-# seeds
+# Netlify Functions Example with Vue.js, Express.js, Firebase-SDK
+This implementation shows you how to run netlify functions with Firebase and a frontend tool like Vue.js. For Firebase to work with netlify it is important to have the function zipped. That works by storing it in a seperate folder and creating it's own package.json.
 
-## Project setup
-```
-npm install
-```
+## Instructions
+1. To get Netlify functions to work with Firebase-SDK create the function in a specific folder named as the function.
+2. Run npm init in the folder of the function and npm install all required dependencies.
+3. Copy the netlify.toml and package.json from the root folder.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Notes:
+The structure will not work if netlify lambda is installed, because the folder structure is unknown to netlify lambda.
